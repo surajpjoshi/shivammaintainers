@@ -13,7 +13,7 @@ nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // Paste the deployed Google Apps Script Web App URL here after completing SETUP.md.
-const ENQUIRY_ENDPOINT = 'PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+const ENQUIRY_ENDPOINT = 'https://script.google.com/macros/s/AKfycbw_h91WW4Fuw4Wude_Ya_2HN2qsUVc4F8s3wKBzG9TNGzLjm3yeW9zZ75A8U0tJJYdfBA/exec';
 
 const form = document.getElementById('enquiry-form');
 const status = document.getElementById('form-status');
